@@ -7,12 +7,18 @@
 //
 
 #include <iostream>
-
+#include "longestConsecutive.h"
+#include <vector>
 int main(int argc, const char * argv[])
 {
+    using namespace std;
+    int a[12] = {9,1,-3,2,4,8,3,-1,6,-2,-4,7};
+    vector<int> num(a,a+12);
+    
+    
 
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    cout << longestConsecutive::longestConsecutive1(num) << endl;
     return 0;
 }
 
