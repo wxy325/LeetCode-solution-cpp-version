@@ -9,8 +9,11 @@
 #include <iostream>
 #include "longestConsecutive.h"
 #include "lengthOfLongestSubstring.h"
+#include "evalRPN.h"
 #include <vector>
-#include "string"
+#include <string>
+#include <algorithm>
+#include <map>
 int main(int argc, const char * argv[])
 {
     using namespace std;
@@ -25,6 +28,10 @@ int main(int argc, const char * argv[])
     string s("wlrbbmqbhcdarzowkkyhiddqscdxrjmowfrxsjybldbefsarcbynecdyggxxpklorellnmpapqfwkhopkmco");
     cout << lengthOfLongestSubstring(s) << endl;
     */
+    
+    string sArray[5] =  {"4", "13", "5", "/", "+"};
+    vector<string> v = vector<string>(sArray, sArray+5);
+    cout << evalRPN(v) << endl;
     
     return 0;
 }

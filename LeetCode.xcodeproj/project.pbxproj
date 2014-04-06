@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18228E2918F117CF00C04EF0 /* evalRPN.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 18228E2718F117CF00C04EF0 /* evalRPN.cpp */; };
 		1874BA1518F04EC4001FB608 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1874BA1418F04EC4001FB608 /* main.cpp */; };
 		1874BA1718F04EC4001FB608 /* LeetCode.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1874BA1618F04EC4001FB608 /* LeetCode.1 */; };
 		1874BA1F18F04EE8001FB608 /* longestConsecutive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1874BA1D18F04EE8001FB608 /* longestConsecutive.cpp */; };
@@ -27,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		18228E2718F117CF00C04EF0 /* evalRPN.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = evalRPN.cpp; sourceTree = "<group>"; };
+		18228E2818F117CF00C04EF0 /* evalRPN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evalRPN.h; sourceTree = "<group>"; };
 		1874BA1118F04EC4001FB608 /* LeetCode */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode; sourceTree = BUILT_PRODUCTS_DIR; };
 		1874BA1418F04EC4001FB608 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		1874BA1618F04EC4001FB608 /* LeetCode.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LeetCode.1; sourceTree = "<group>"; };
@@ -72,6 +75,8 @@
 				1874BA1E18F04EE8001FB608 /* longestConsecutive.h */,
 				1874BA2018F06F13001FB608 /* lengthOfLongestSubstring.cpp */,
 				1874BA2118F06F13001FB608 /* lengthOfLongestSubstring.h */,
+				18228E2718F117CF00C04EF0 /* evalRPN.cpp */,
+				18228E2818F117CF00C04EF0 /* evalRPN.h */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -127,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18228E2918F117CF00C04EF0 /* evalRPN.cpp in Sources */,
 				1874BA1518F04EC4001FB608 /* main.cpp in Sources */,
 				1874BA1F18F04EE8001FB608 /* longestConsecutive.cpp in Sources */,
 				1874BA2218F06F13001FB608 /* lengthOfLongestSubstring.cpp in Sources */,
@@ -239,6 +245,7 @@
 				1874BA1C18F04EC4001FB608 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
